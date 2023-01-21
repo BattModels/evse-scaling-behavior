@@ -1,0 +1,214 @@
+{
+    "version": "v1",
+    "config": {
+        "visState": {
+            "filters": [],
+            "layers": [
+                {
+                    "id": "1jprxag",
+                    "type": "geojson",
+                    "config": {
+                        "dataId": "nnze2s93",
+                        "label": "Scale-Adjusted EVSE Station Gap",
+                        "color": [
+                            255,
+                            203,
+                            153
+                        ],
+                        "highlightColor": [
+                            252,
+                            242,
+                            26,
+                            255
+                        ],
+                        "columns": {
+                            "geojson": "geometry"
+                        },
+                        "isVisible": true,
+                        "visConfig": {
+                            "opacity": 0.8,
+                            "strokeOpacity": 0.8,
+                            "thickness": 0.5,
+                            "strokeColor": [109, 110, 113],
+                            "colorRange": {
+                                "name": "Roma",
+                                "type": "sequential",
+                                "colors": [
+                                    "#1a3399",
+                                    "#22409f",
+                                    "#284ea5",
+                                    "#2e5baa",
+                                    "#3469b0",
+                                    "#3977b6",
+                                    "#3f85bc",
+                                    "#4694c3",
+                                    "#4ea3c9",
+                                    "#58b3cf",
+                                    "#67c2d4",
+                                    "#7cd1d7",
+                                    "#94ddd7",
+                                    "#ace5d4",
+                                    "#c2eacd",
+                                    "#d3ecc3",
+                                    "#deebb4",
+                                    "#e3e7a2",
+                                    "#e2e08d",
+                                    "#dcd575",
+                                    "#d3c45c",
+                                    "#c8b047",
+                                    "#be9c38",
+                                    "#b58a2e",
+                                    "#ad7826",
+                                    "#a4671e",
+                                    "#9c5617",
+                                    "#92440f",
+                                    "#893007",
+                                    "#7f1900",
+                                    "#ffffff"
+                                ]
+                            },
+                            "radius": 10,
+                            "sizeRange": [
+                                0,
+                                10
+                            ],
+                            "radiusRange": [
+                                0,
+                                50
+                            ],
+                            "heightRange": [
+                                0,
+                                500
+                            ],
+                            "elevationScale": 5,
+                            "enableElevationZoomFactor": true,
+                            "stroked": true,
+                            "filled": true,
+                            "enable3d": false,
+                            "wireframe": false
+                        },
+                        "hidden": false,
+                        "textLabel": [
+                            {
+                                "field": null,
+                                "color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "size": 18,
+                                "offset": [
+                                    0,
+                                    0
+                                ],
+                                "anchor": "start",
+                                "alignment": "center"
+                            }
+                        ]
+                    },
+                    "visualChannels": {
+                        "colorField": {
+                            "name": "county_color",
+                            "type": "real"
+                        },
+                        "colorScale": "quantize",
+                        "strokeColorField": null,
+                        "strokeColorScale": "quantile",
+                        "sizeField": null,
+                        "sizeScale": "linear",
+                        "heightField": null,
+                        "heightScale": "linear",
+                        "radiusField": null,
+                        "radiusScale": "linear"
+                    }
+                }
+            ],
+            "interactionConfig": {
+                "tooltip": {
+                    "fieldsToShow": {
+                        "nnze2s93": [
+                            {
+                                "name": "State",
+                                "format": null
+                            },
+                            {
+                                "name": "County",
+                                "format": null
+                            },
+                            {
+                                "name": "Population",
+                                "format": ".3~s"
+                            },
+                            {
+                                "name": "Gasoline Stations (Q4 2020)",
+                                "format": ".3~s"
+                            },
+                            {
+                                "name": "EVSE Stations (As of 12/31/2020)",
+                                "format": ".3~s"
+                            },
+                            {
+                                "name": "EVSE Stations for Parity",
+                                "format": ".3~s"
+                            },
+                            {
+                                "name": "Scale-Adjusted EVSE Station Gap",
+                                "format": ".2~s"
+                            }
+                        ]
+                    },
+                    "compareMode": false,
+                    "compareType": "absolute",
+                    "enabled": true
+                },
+                "brush": {
+                    "size": 0.5,
+                    "enabled": false
+                },
+                "geocoder": {
+                    "enabled": true
+                },
+                "coordinate": {
+                    "enabled": false
+                }
+            },
+            "layerBlending": "normal",
+            "splitMaps": [],
+            "animationConfig": {
+                "currentTime": null,
+                "speed": 1
+            }
+        },
+        "mapState": {
+            "bearing": 0,
+            "dragRotate": false,
+            "latitude": 39.1,
+            "longitude": -95.5,
+            "pitch": 0,
+            "zoom": 3.4,
+            "isSplit": false
+        },
+        "mapStyle": {
+            "styleType": "muted",
+            "topLayerGroups": {
+                "border": false,
+                "label": true
+            },
+            "visibleLayerGroups": {
+                "label": true,
+                "road": true,
+                "border": true,
+                "building": true,
+                "water": true,
+                "land": true,
+                "3d building": false
+            },
+            "threeDBuildingColor": [
+                224.4071295378559,
+                224.4071295378559,
+                224.4071295378559
+            ],
+            "mapStyles": {}
+        }
+    }
+}

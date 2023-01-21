@@ -1,0 +1,37 @@
+# Census Boundary Data
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.shp.*.xml
+*.shx
+
+# Data Files
+*.csv
+*.json
+*.geojson
+*.tar.gz
+
+# Julia
+Manifest.toml
+
+# Images
+*.png
+*.svg
+
+# Latex
+*.pdf
+latex-out/
+
+# Archives
+*.zip
+
+# DVC
+*.dvc/
+
+# Spack
+.spack-env/
+spack.lock
+
+# Data
+data/
