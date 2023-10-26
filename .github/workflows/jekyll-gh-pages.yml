@@ -28,15 +28,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+      - uses: ruby/setup-ruby@v1
         with:
-          source: ./docs
-          destination: ./docs/_site
+          working-directory: ./docs
+          bundler-cache: true
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
+        working-directory: ./docs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./docs/_site/
 
   # Deployment job
   deploy:
