@@ -32,7 +32,7 @@ plugins:
   - jekyll-include-cache
 
 analytics:
-  provider: "google"
+  provider: "google-gtag"
   google:
     tracking_id: G-XT01551W4K
     anonymize_ip: true
