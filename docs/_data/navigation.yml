@@ -1,0 +1,9 @@
+main:
+  - title: Paper
+    url: https://doi.org/10.1093/pnasnexus/pgad341
+  - title: Predictions
+    url: map.html
+  - title: "Code"
+    url: https://github.com/BattModels/evse-scaling-behavior
+  - title: "Dataset"
+    url: https://doi.org/10.5281/zenodo.5784659
