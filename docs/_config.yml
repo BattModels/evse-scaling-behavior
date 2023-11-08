@@ -24,6 +24,7 @@ email: venkvis@umich.edu
 repository: BattModels/evse-scaling-behavior
 baseurl: "/evse-scaling-behavior"
 url: "https://BattModels.github.io"
+name: "Alexius Wadell"
 
 # Build settings
 theme: minimal-mistakes-jekyll
