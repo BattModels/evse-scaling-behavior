@@ -35,8 +35,6 @@ jobs:
       - name: Build with Jekyll
         run: make build
         working-directory: ./docs
-        env:
-          JEKYLL_ENV: production
       - name: Check Site
         run: make test
         working-directory: ./docs
