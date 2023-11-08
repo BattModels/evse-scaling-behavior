@@ -16,7 +16,7 @@ We need a simple, robust framework for estimating infrastructure needs and evalu
 Using [Urban Scaling Theory][scale], we've estimated the number of charging stations needed to reach parity[^2] with gasoline stations and created [an interactive map of our estimates][map].
 For example, in Washtenaw County, Michigan[^3], we estimate an 83-fold increase in charging infrastructure is needed.
 
-We've published our [paper] as an Open Access brief report on PNAS Nexus, and have publicly released a [dataset of our predictions and the input datasets](dataset).
+We've published our [paper] as an Open Access brief report on PNAS Nexus, and have publicly released a [dataset of our predictions and the input datasets][dataset].
 
 
 [scale]: https://www.ted.com/talks/geoffrey_west_the_surprising_math_of_cities_and_corporations?utm_campaign=tedspread&utm_medium=referral&utm_source=tedcomshare
